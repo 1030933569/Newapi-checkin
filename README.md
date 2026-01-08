@@ -61,12 +61,12 @@ python config_helper.py
 **使用示例：**
 ```
 --- 配置第 1 个账号 ---
-站点 URL（如 https://runanytime.hxi.me）: https://runanytime.hxi.me
+站点 URL（如 https://xxx.xxx）: https://xxx.xxx
 Session Cookie: MTc2NzQxMzYzM3xEWDhF...
-备注名称（可选，便于识别） [站点1]: RunAnytime
+备注名称（可选，便于识别） [站点1]: 主站
 是否测试此账号配置 (Y/n): y
 正在测试...
-  ✅ 测试成功！用户名: linuxdo_988
+  ✅ 测试成功！用户名: xxx_xxx
 ✅ 第 1 个账号添加成功
 
 是否继续添加账号 (y/N): n
@@ -187,7 +187,7 @@ https://api.example1.com#MTc2NzQx...,https://api.example2.com#QVFMXzJh...,https:
 #### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/Newapi-checkin.git
+git clone https://github.com/Jasonliu-0/Newapi-checkin.git
 cd Newapi-checkin
 ```
 
@@ -230,7 +230,7 @@ python test_checkin.py <站点URL> <session值>
 
 **示例：**
 ```bash
-python test_checkin.py https://runanytime.hxi.me MTc2NzQxMzYzM3xEWDhFQVFMX2...
+python test_checkin.py https://xxx.xxx MTc2NzQxMzYzM3xEWDhFQVFMX2...
 ```
 
 测试脚本会验证：
@@ -1087,4 +1087,4 @@ MIT License
 
 ## 📮 反馈
 
-如有问题或建议，请提交 [Issue](https://github.com/your-username/Newapi-checkin/issues)。
+如有问题或建议，请提交 [Issue](https://github.com/Jasonliu-0/Newapi-checkin/issues)。
